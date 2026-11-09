@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Real-time Pemantauan</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 600px; }
+        input { padding: 8px; width: 70%; margin-right: 10px; }
+        button { padding: 8px 15px; cursor: pointer; }
+        ul { list-style-type: none; padding: 0; }
+        li { background: #f4f4f4; margin: 5px 0; padding: 10px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h2>Input Data Pemantauan</h2>
+    <input type="text" id="inputData" placeholder="Masukkan rincian pekerjaan atau transaksi...">
+    <button id="btnSimpan">Simpan</button>
+
+    <h3>Daftar Data (Update Real-time)</h3>
+    <ul id="daftarData"></ul>
+
+    <!-- Memanggil script sebagai module ES6 -->
+    <script type="module" src="app.js"></script>
+</body>
+</html>
